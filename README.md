@@ -8,6 +8,16 @@ Data used :
 
 The necessary data for this study has been gathered from the "Our World in Data" platform. For my research, I have gathered three crucial datasets: nitrous oxide emissions, nitrogen fertilizer consumption, and surface temperature. The  data consists of the country's name, country code, year, and corresponding value. 
 
+nitrous-oxide-emission.csv - Raw data showing the annual nitrous oxide emission across different countries.
+
+nitrogen-fertilizer-application-per-hectare-of-cropland.csv - Raw data showing the annual consumption of fertilizers across different countries.
+
+average-monthly-surface-temperature.csv - Raw data showing the average monthly surface temperature across different countries.
+
+forecast_data.xlsx -  Pre-processed dataset merging all the three raw datasets. Used for exploratory data analysis.
+
+clustered_forecast_data.xlsx - Clustered dataset with country cluster obtained from time series K-means clustering. Used for model development and training.
+
 Data preprocessing :
 
 The data preprocessing  is done in the 'data_preprocessing.ipynb' file. This includes treating mull values and managing outliers in all the three datasets. Finally, the datasets were merged into a single dataset and was exported as an excel file.
